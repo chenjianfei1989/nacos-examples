@@ -1,0 +1,15 @@
+server:
+  port: 8070
+spring:
+  application:
+    name: service-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        #NACOS nacos.core.auth.enabled=true开启认证时候使用
+        password: nacos
+        username: nacos
+        metadata:
+          version: 0.0.1
+        cluster-name: DL
