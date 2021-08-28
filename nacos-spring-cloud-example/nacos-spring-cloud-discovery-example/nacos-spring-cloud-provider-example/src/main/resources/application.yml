@@ -13,3 +13,5 @@ spring:
         metadata:
           version: 0.0.1
         cluster-name: DL
+        #开启持久化存储(CP)
+        #ephemeral: false
